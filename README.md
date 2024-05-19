@@ -19,13 +19,12 @@ Learning points:
 - Created 'main' file to practice.
 - Completing the project in separate milestones, there were many bugs in the project along the way, especially infinite loops, which I left in place at the different milestone points to enable me to follow the instructions in order.
 - Resolved bugs around unique letters/repeated letters.
+- Veered from instructions to make game more inteactive through print statements, added an option for a hint once user only has 1 life left and an option to to play again or exit at the end of a game, and added a twist whereby user gains a life if they guess a letter correctly.
 
-## Installation instructions:
+## Installation instructions and usage instructions:
 
-## Usage instructions:
+Programme should be run from 'main' file.
 
 ## File structure of the project:
 
 There is a separate numbered 'milestone' python file to correlate with the order of the tasks assigned.
-
-## License information:
