@@ -16,7 +16,9 @@ Learning points:
 - Learned how to utilise GitHub for my projects.
 - Reminded myself of the syntax and functionality of many of the basic Python functions (e.g. .enumerate(), .isalpha(), .lower()).
 - Having only ever used OOP in Java, the project enabled me to learn how to use OOP in Python.
+- Created 'main' file to practice.
 - Completing the project in separate milestones, there were many bugs in the project along the way, especially infinite loops, which I left in place at the different milestone points to enable me to follow the instructions in order.
+- Resolved bugs around unique letters/repeated letters.
 
 ## Installation instructions:
 
