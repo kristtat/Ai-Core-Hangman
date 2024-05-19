@@ -20,14 +20,20 @@ class Hangman():
                 if letter == guess:
                     self.word_guessed[index] = guess
             self.num_letters -= 1 #decrements per letter, not unique letter
-                    
-            print(self.word_guessed)
-            print(self.num_letters)
+            self.num_lives += 1 #twist, user wins a life if they guess correctly
                     
         else:
             self.num_lives -= 1
             print(f"Sorry, {guess} is not in the word. Try again.")  
-            print(f"You have {self.num_lives} lives left.")  
+            print(f"You have {self.num_lives} lives left.\n") 
+            if self.num_lives == 1:
+                hint = input("Would you like a hint? For 'yes', enter 1. For 'no', enter any other key.")
+                if int(hint) == 1:
+                    print("Hint: it's something yummy!")
+                    self.ask_for_input()
+                else:
+                    print("No hint for you, good luck on your own!")
+                    self.ask_for_input() 
 
     def ask_for_input(self):
         while self.num_letters > 0 and self.num_lives > 0:
