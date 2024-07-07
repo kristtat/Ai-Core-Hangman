@@ -1,5 +1,5 @@
 # Ai-Core-Hangman
- Project created as part of AiCore Data Engineering course.
+ Project created as part of AiCore Data Analytics course.
 
 ## Project Title: 
 Hangman
